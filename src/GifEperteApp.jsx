@@ -24,7 +24,7 @@ export const GifEperteApp = () => {
         onAddCategory = {onAddCategory}
       />
       {/* listado de gif */}
-      <button onClick={onAddCategory}>Agregar</button>
+      <button onClick={onAddCategory}>Load More</button>
       
      
         {categories.map((category) => {
